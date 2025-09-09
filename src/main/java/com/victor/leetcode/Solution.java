@@ -23,6 +23,11 @@ public abstract class Solution {
     public abstract Difficulty getDifficulty();
     
     /**
+     * 获取题目描述
+     */
+    public abstract String getProblemDescription();
+        
+    /**
      * 难度枚举
      */
     public enum Difficulty {
