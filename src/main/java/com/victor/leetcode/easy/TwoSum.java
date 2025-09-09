@@ -3,7 +3,7 @@ package com.victor.leetcode.easy;
 import com.victor.leetcode.Solution;
 import java.util.HashMap;
 import java.util.Map;
-
+import java.util.Arrays;
 /**
  * LeetCode 1. 两数之和
  * 
@@ -79,5 +79,21 @@ public class TwoSum extends Solution {
                 + "解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。";
         return text;
     }
-}   
+
+    @Override
+    public String getProblemSolution() {
+        return """
+                方法一：暴力枚举
+                方法二：哈希表
+                """;
+    }
+
+    public static void main(String[] args) {
+        TwoSum twoSum = new TwoSum();
+        int[] nums = {2,7,11,15};
+        int target = 9;
+        int[] result = twoSum.twoSum(nums, target);
+        System.out.println(Arrays.toString(result));
+    }
+}       
 

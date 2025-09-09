@@ -26,7 +26,12 @@ public abstract class Solution {
      * 获取题目描述
      */
     public abstract String getProblemDescription();
-        
+    
+    /**
+     * 获取题目解法
+     */
+    public abstract String getProblemSolution();
+
     /**
      * 难度枚举
      */

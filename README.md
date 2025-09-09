@@ -1,14 +1,14 @@
 # Victor LeetCode Solutions
 
-🚀 Java 11+ 版本的 LeetCode 刷题项目
+🚀 Java 17+ 版本的 LeetCode 刷题项目
 
 ## 项目简介
 
-这是一个基于 Java 11+ 和 Maven 的 LeetCode 刷题项目，旨在提供高质量的算法题解和完善的测试用例。
+这是一个基于 Java 17+ 和 Maven 的 LeetCode 刷题项目，旨在提供高质量的算法题解和完善的测试用例。
 
 ## 项目特点
 
-- ✅ **Java 11+**: 使用 Java 11 LTS 版本，兼容更高版本
+- ✅ **Java 17+**: 使用 Java 17 LTS 版本，兼容更高版本
 - ✅ **Maven 构建**: 标准的 Maven 项目结构，易于管理依赖
 - ✅ **JUnit 5**: 现代化的单元测试框架
 - ✅ **AssertJ**: 流畅的断言库，提供更好的测试体验
@@ -43,7 +43,7 @@ victor-leetcode/
 
 ## 环境要求
 
-- Java 11 或更高版本
+- Java 17 或更高版本
 - Maven 3.6 或更高版本
 
 ## 快速开始
